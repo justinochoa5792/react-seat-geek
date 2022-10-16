@@ -3,8 +3,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const SearchResults = ({ searchResult }) => {
-  console.log(searchResult.map((item) => item));
-
   return (
     <>
       {searchResult.length > 0 ? (
